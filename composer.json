@@ -1,0 +1,35 @@
+{
+    "name": "sofe/depin",
+    "type": "library",
+    "require": {
+        "sof3/await-generator": "^3.2"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^1.2",
+        "phpunit/phpunit": "^9.5",
+        "friendsofphp/php-cs-fixer": "^3.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "SOFe\\Depin\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SOFe\\Depin\\Example\\": "example/"
+        }
+    },
+    "license": "Apache-2.0",
+	"readme": "README.md",
+    "authors": [
+        {
+            "name": "SOFe",
+            "email": "sofe2038@gmail.com"
+        }
+    ],
+	"scripts": {
+		"example": "php example/Main.php",
+		"analyze": "vendor/bin/phpstan analyze",
+        "fmt": "vendor/bin/php-cs-fixer fix"
+	}
+}

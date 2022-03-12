@@ -1,0 +1,7 @@
+name: plugin 2
+description: another plugin
+version: 1.0.0
+namespace: SOFe\Depin\Example\Plugin2
+classes:
+  - BanCommand
+  - MyBanList

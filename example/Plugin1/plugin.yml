@@ -1,0 +1,6 @@
+name: plugin 1
+description: a plugin
+version: 1.0.0
+namespace: SOFe\Depin\Example\Plugin1
+classes:
+  - LoginCommand
